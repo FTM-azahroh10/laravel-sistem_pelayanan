@@ -1,0 +1,41 @@
+#sidebar {
+    height: 100vh;
+}
+
+#sidebar p {
+    color: #B3BDC8;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.border {
+    height: 1px;
+    width: 60px;
+    color: white;
+}
+
+.background {
+    width: 1000px;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+#iconmenu .card{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#iconmenu .card:hover{
+    background-color: silver;
+}
